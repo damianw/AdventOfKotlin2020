@@ -66,7 +66,6 @@ object Day04 : Day<List<Day04.Passport>, Int, Int> {
                             val (key, value) = entry.split(":")
                             key to value
                         }
-                    println("PROPS: $properties")
                     Passport(
                         birthYear = properties["byr"],
                         issueYear = properties["iyr"],

@@ -8,6 +8,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import wtf.log.xmas2020.day.day05.Day05
 import wtf.log.xmas2020.day.day01.Day01
 import wtf.log.xmas2020.day.day02.Day02
 import wtf.log.xmas2020.day.day03.Day03
@@ -23,6 +24,7 @@ private val DAYS = listOf<Day<*, *, *>?>(
     Day02,
     Day03,
     Day04,
+    Day05,
 )
 
 private object ProgramArguments {

@@ -9,6 +9,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import wtf.log.xmas2020.day.day01.Day01
+import wtf.log.xmas2020.day.day02.Day02
 import wtf.log.xmas2020.util.time.toPrettyFormat
 import java.io.File
 import java.time.Duration
@@ -16,7 +17,8 @@ import kotlin.system.exitProcess
 import kotlin.system.measureNanoTime
 
 private val DAYS = listOf<Day<*, *, *>?>(
-    Day01
+    Day01,
+    Day02
 )
 
 private object ProgramArguments {

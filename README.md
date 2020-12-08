@@ -4,7 +4,7 @@ AdventOfKotlin2020
 Solutions to the [2020 Advent Of Code](http://adventofcode.com/2020) problems, written in Kotlin.
 
 My solutions for previous years can be found here:
-- [AdventOfCode2018](https://github.com/damianw/AdventOfKotlin2019)
+- [AdventOfCode2019](https://github.com/damianw/AdventOfKotlin2019)
 - [AdventOfCode2018](https://github.com/damianw/AdventOfKotlin2018)
 - [AdventOfCode2017](https://github.com/damianw/AdventOfKotlin2017)
 - [AdventOfCode2016](https://github.com/damianw/AdventOfKotlin2016)
@@ -25,8 +25,8 @@ A `AdventOfKotlin2020` binary will be output to the `build` directory.
 Running the `AdventOfKotlin2020` binary will run all the current solutions. You may optionally specify the days to run (comma separated, e.g. `1,2,3`).
 
 ```
-$ build/AdventOfKotlin2019 --help
-Usage: AdventOfKotlin2019 [options]
+$ build/AdventOfKotlin2020 --help
+Usage: AdventOfKotlin2020 [options]
   Options:
     --days, -d
        Days of the advent calendar to solve
